@@ -19,3 +19,5 @@ git clone https://github.com/dffischer/waf-installdir
 ./waf-light configure --prefix=/usr \
   build --make-waf --tools='waf-installdir/installdir.py'
 ```
+
+To make it available to a system-wide waf installation, the included waf script can be used to place it into the waf library.
